@@ -1,0 +1,150 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport', content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0')
+  meta(http-equiv='X-UA-Compatible', content='ie=edge')
+  title Document
+  link(rel='stylesheet', href='./styles.css')
+// presentation
+.presentation
+  // header
+  .container
+    .wrapper
+      .contacts
+        .contacts-social
+          .social
+            .viber
+            .telegram
+          p.number
+            | +7 (800)
+            span 777-29-61
+          .info-item
+            .mail
+            p.text info@uartphoto
+        .logo
+        .contacts-info
+          .info-item
+            .time
+            p.text пн-вт 10:00-19:00
+          .info-item
+            .locate
+            p.text СПб, ул. Лизы Чайкиной 14
+      .menu
+        .menu-info
+          .menu-logo
+          .menu-list
+            ul.list
+              li ВЫПУСКНЫЕ АЛЬБОМЫ
+              li О КОМПАНИИ
+              li ОТЗЫВЫ
+              li ВОПРОС-ОТВЕТ
+              li КОНТАКТЫ
+        .menu-search
+          .search-logo
+          .menu-button
+            a(href='#') Заказать звонок
+  // content
+  .container
+    .content
+      .content-wrapper
+        .content-title
+          p
+            span выпускные альбомы
+            |  в Санкт-Петербурге и Москве
+        .content-scroll
+          a(href='') Перейти в каталог
+      .content-button
+// cards
+.cards-wrapper
+  .container
+    .card-wrapper
+      .card
+        .card-logo
+        .card-info
+          p ДЛЯ ДЕТСКОГО САДА
+          .card-info-logo
+      .card
+        .card-logo
+        .card-info
+          p ДЛЯ 4 КЛАССОВ
+          .card-info-logo
+      .card
+        .card-logo
+        .card-info
+          p Для 9, 11 классов
+          .card-info-logo
+// form
+.form-wrapper
+  .container
+    .form-container
+      form.form(action='')
+        div
+          p.form-title заказать
+          p.form-subtitle  бесплатную презентацию
+        input.form-input(type='text', placeholder='Имя')
+        input.form-input(type='tel', placeholder='Телефон')
+        .form-button
+          a(href='') Отправить
+      .form-logo
+// slider
+.slider-wrapper
+  .container
+    p.title
+      | наше
+      span портфолио
+    .slider
+      .slider-item
+      .slider-item
+      .slider-item
+      .slider-item
+      .slider-item
+      .slider-item
+    .button
+      a(href='#') Посмотреть все портфолио
+// how-we-work
+.work-wrapper
+  .container
+    p.title
+      | как мы
+      span работаем?
+    .work-content
+      .work-item
+        .work-item-logo
+        .work-item-info
+          p Выбор дизайна
+// reviews
+.reviews-wrapper
+  .container
+    p.title
+      span отзывы
+    .reviews-content
+      .reviews-item
+        .reviews-logo
+        .reviews-info
+          .reviews-info-wrapper
+            p.reviews-info-name Артём
+            p.reviews-info-date 22.06.2002
+          .reviews-info-stars
+          p.reviews-info-description
+            | Отзыв — это письменное либо устное высказывание,
+            | основанное на выражении личностного эмоционально-оценочного отношения к увиденному...
+      .reviews-item
+        .reviews-logo
+        .reviews-info
+          .reviews-info-wrapper
+            p.reviews-info-name Артём
+            p.reviews-info-date 22.06.2002
+          .reviews-info-stars
+          p.reviews-info-description
+                      | Отзыв — это письменное либо устное высказывание,
+                      | основанное на выражении личностного эмоционально-оценочного отношения к увиденному...
+    .button
+      a(href='#') Посмотреть все отзывы
+// footer
+footer.footer
+  .container
+    p.footer-description Юартфото @2021-2022
+
+script(src='https://code.jquery.com/jquery-3.6.0.min.js')
+script(src='./assets/js/slick.min.js')
+script(src='./assets/js/script.js')
